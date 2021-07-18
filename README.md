@@ -18,7 +18,7 @@
 
 ### Data overview
 
-Data used in the preparation of this article were obtained from the [Alzheimer’s Disease Neuroimaging Initiative (ADNI) database](adni.loni.usc.edu). The data we used from ADNI consists of: 
+Data used in the preparation were obtained from the [Alzheimer’s Disease Neuroimaging Initiative (ADNI) database](adni.loni.usc.edu). The data we used from ADNI consists of: 
 
 <p align="left" width="100%"> 
     <img width="50%" src="Figure/data_description.png"> 
@@ -40,6 +40,143 @@ Extracted features from this data were merged together into a final spreadsheet 
 
 #### Detailed description 
 
+##### Background of AD clinial identification
+
+1. Recognition methodologies of AD
+
+1-1 Cognitive tests
+
+Cognitive tests can help in the diagnosis of AD. In the tests, people are instructed to copy drawings similar to the one shown in the picture, remember words, read and subtract numbers. These intercalated pentagons are used in the Mini-Mental State Examination (MMSE), an extensively used cognitive test. Image source: Wikipedia
+
+Cognitive tests are important in Alzheimer's disease because they measure cognitive decline in a direct and quantifiable manner. In the cascade of pathological events that lead to Alzheimer's disease, cognitive decline is one of the latest to become abnormal. This is because the first abnormalities are first noticed on the microscopical scale through the misfolding of a protein called Amyloid beta. These are followed by changes at larger scales: loss of the neurons' myelin sheath, neuron death, visible atrophy in MRI scans and finally cognitive decline. (Jack et al., 2013, 2010b)
+
+These tests have several limitations: 
+
++ They suffer from practice effects, i.e. patients who undertake the same test several times can learn/remember how to do it, and thus score higher at a follow-up visit; this limits the usefulness of the test in assessing dementia 
+
++ They have floor or ceiling effects, which means that many subjects might score the highest/lowest score possible 
+
++ They can be biased, as they are undertaken by a human expert who might be influenced by prior knowledge of the subject's cognitive abilities.
+
+
+
+
+
+1-2 MRI(Magnetic resonance imaging (MRI) measures
+
+
+<p align="left" width="100%"> 
+    <img width="80%" src="Figure/mri_atrophy.png"> 
+</p>
+
+
+
+With MRI, atrophy can be quantified by measuring the volume of gray matter (GM) and white matter (WM) of the brain. The GM is the brain tissue that consists of nerve cells and the WM consists of fibres connecting these nerve cells. GM can be found in the cortex of the brain and in sub-cortical areas. As a structural MRI scan shows contrast (i.e. differences in pixel intensities) between these tissues, it can be used for volume  measurement. 
+
+Atrophy by indicated by the loss of volume in a particular brain region between two scans, one initial scan and one follow-up scan. Atrophy is caused by the death of neurons in regions affected.
+
+TADPOLE datasets include three main types of **structural MRI markers** of atrophy: 
+
++ ROI volumes 
++ ROI cortical thicknesses 
++ ROI surface areas, where an ROI (region of interest) is a 3D sub-region of the brain such as the inferior temporal lobe. 
+
+
+These measures are computed with an image analysis software called Freesurfer using two pipelines: cross-sectional (each subject visit is independent) or longitudinal (uses information from all the visits of a subject). The longitudinal measures are more robust, but the downside is that there are more missing values in our TADPOLE spreadsheet. 
+
+**The MRI biomarkers in TADPOLE can be found in the columns containing UCSFFSX (cross-sectional) and UCSFFSL (longitudinal).**
+
+
+1-3 PET measures
+
+<p align="left" width="100%"> 
+    <img width="80%" src="Figure/pet.png"> 
+</p>
+
+
+Positron Emission Tomography (PET) detects pairs of gamma rays emitted by a radioactive tracer, which is introduced into the body of a biologically active molecule. Three-dimensional images of tracer concentration within the body are then constructed by computer analysis. Before a PET scan, the patient is injected with a contrast agent (containing the tracer) which spreads throughout the brain and binds to abnormal proteins (amyloid and tau). This enables researchers to track the concentration of these proteins. 
+
+PET scans can be of several types, depending on the cellular and molecular processes that are being measured:
+
++ **cell metabolism** using Fluorodeoxyglucose (FDG) PET: Neuronal cell metabolism refers to the the activity going on inside neuronal cells such as the processing of food and elimination of waste. Neurons that are about to die will show reduced metabolism, so FDG PET is an indicator of neurodegeneration. FDG PET can be used to measure cell metabolism.
+
+
++ **levels of abnormal proteins** such as amyloid-beta through AV45 PET. Amyloid-beta misfolding (i.e. errors in the construction of its 3D structure) is thought to be one of the causes of Alzheimer's disease. High levels of misfolded amyloid-beta in the brain are thought to eventually lead to future neurodegeneration and cognitive decline. AV45 PET can be used to measure the levels of amyloid in the brain.
+
++ **levels of abnormal tau proteins** through AV1451 PET: Abnormal phosphorylated tau (i.e. tau protein + a phosphorus group) that gather together in an insoluble form eventually causes damage to the neuron's cytoskeleton, causing the neuron's transport system to collapse and thus to the neuron's death.
+
+While PET scans are non-invasive, they have some limitations. One main limitations is that the patient is exposed to ionizing radiation, which limits the number of scans they can take in a specific time interval. PET scans also have a much lower spatial resolution compared to MRI scans. One other caveat with AV1451 PET (tau imaging) is that it is a very new imaging technology and still under research, and very few subjects in the TADPOLE dataset have undertaken these images. 
+
+**PET measures can be found in columns containing "BAIPETNMRC" (FDG PET), "UCBERKELEYAV45" (AV45) and "UCBERKELEYAV1451" (AV1451).**
+
+
+1-4 DTI measures
+
+<p align="left" width="100%"> 
+    <img width="80%" src="Figure/DTI_diagram.png"> 
+</p>
+
+While structural MRI measures brain atrophy, MRI can also be used to measure other markers of neurodegeneration that provide complementary information for dementia diagnosis. One such marker is diffusion tensor imaging (DTI). DTI can measure the degeneration of white matter (connections between neurons) in the brain. This is done by analysing the diffusion of water molecules along the neuron fibre connections. 
+
+Molecular diffusion in tissues is not free, but reflects interactions with many obstacles, such as macromolecules, fibers, and membranes. When a fiber connection degrades, the diffusion becomes more isotropic (i.e. equal in every direction), which can be quantified using a measure called fractional anisotropy. 
+
+DTI measures have some limitations. In ADNI, it is a relatively recent imaging modality, and thus many subjects will not have any DTI scans. Another common problem with diffusion tensor imaging and structural MRI is the partial volume effect, which means that measures at each voxel (3D pixel) are biased due to averaging across many different cells that are contained in that voxel.
+
+**In the TADPOLE spreadsheet, DTI measures can be found in columns containing "DTIROI".**
+
+
+
+1-5 CSF measures
+
+<p align="left" width="100%"> 
+    <img width="100%" src="Figure/CSFCirculation.png"> 
+</p>
+
+The cerebrospinal fluid (CSF) is a clear, colourless body fluid found in the brain and spinal cord. It acts as a cushion or buffer for the brain, providing basic mechanical and immunological protection to the brain inside the skull. A sample of the CSF can be taken from patients invasively, by inserting a needle in the spinal cord, a procedure called lumbar puncture.
+
+Measures of CSF are very important for dementia research. In the CSF, the concentration of **abnormal proteins** such as **amyloid-beta and tau** is a strong indicator of AD. Abnormal levels of concentrations in these proteins are some of the earliest signs of Alzheimer's disease and can indicate abnormalities many years before symptom onset.
+
+1-6 Risk factors
+
+
+<p align="left" width="100%"> 
+    <img width="100%" src="Figure/adRiskFactors.png"> 
+</p>
+
+There are several important risk factors that are known to cause dementia. 
+
++ The **alipoprotein E4 variant (APOE E4)** is a gene that is the largest known risk factor for AD. Subjects with APOE E4 have a risk 10 to 30 times higher of developing AD compared to non-carriers (i.e. subjects without the gene). The exact mechanism through which the presence of APOE E4 leads to AD is not known. The presence of APOE E4 in a particular subject is denoted by a 1 in the APOE column in TADPOLE_D1_D2.csv
+
++ Another known and important risk factor for AD is **age** – the older subjects are the more likely they are to develop AD. Above the age of 65, the risk of developing dementia doubles every 5 years.
+
++ **Gender** is another known risk factor, where women seem more likely to develop AD than men. The reasons for this are still unclear.
+
++ **medical condition** Medical conditions such as type 2 diabetes, high blood pressure, high cholesterol, obesity or depression are known to increase the risk of developing dementia. 
+
++ **lifestyle** Lifestyle factors known to increase the risk of developing dementia include physical inactivity, smoking, unhealthy diet, excessive alcohol or head injuries.
+
+While some of these risk factors (APOE, age and gender) are found in the TADPOLE_D1_D2.csv spreadsheet, the other factors are not present.
+
+The information does however exist in the ADNI database (one spreadsheet is under Study Data-> Medical History -> Medical History [ADNI1,GO,2]) and TADPOLE participants are welcome to use the information from these spreadsheets if desired.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 The five most commonly investigated biomarkers were recently included in the revised diagnostic criteria for AD and MCI due to AD (Albert et al.,2011; McKhann et al., 2011). These five biomarkers can be divided into two categories: 
 
@@ -47,7 +184,7 @@ The five most commonly investigated biomarkers were recently included in the rev
 
 + measures of damage to nerve cells (Jack et al., 2012).
 
-Following the two categories, the standard datasets contain the following biomarkers:
+Following the two categories, the standard datasets contain the some or all of the following biomarkers:
 
 1. Main cognitive tests (excluding subtypes) - neuropsychological tests administered by a clinical expert
 
@@ -58,6 +195,9 @@ Following the two categories, the standard datasets contain the following biomar
 + RAVLT
 + Moca
 + Ecog
+
+
+
 
 2. MRI ROIs (Freesurfer) - measures of brain structural integrity
 
@@ -81,9 +221,13 @@ Following the two categories, the standard datasets contain the following biomar
 
 8. Others:
 
+
+
 + APOE status - a gene that is a risk factor for developing AD
 + Demographic information: age, gender, education, etc ...
 + Diagnosis: either cognitively cormal (CN), mild cognitive impairment (MCI) or Alzheimer's disease (AD).
+
+##### Getting started with the data sets
 
 
 
