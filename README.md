@@ -92,7 +92,6 @@ These measures are computed with an image analysis software called Freesurfer us
     <img width="60%" src="Figure/pet.jpeg"> 
 </p>
 
-
 Positron Emission Tomography (PET) detects pairs of gamma rays emitted by a radioactive tracer, which is introduced into the body of a biologically active molecule. Three-dimensional images of tracer concentration within the body are then constructed by computer analysis. Before a PET scan, the patient is injected with a contrast agent (containing the tracer) which spreads throughout the brain and binds to abnormal proteins (amyloid and tau). This enables researchers to track the concentration of these proteins. 
 
 PET scans can be of several types, depending on the cellular and molecular processes that are being measured:
