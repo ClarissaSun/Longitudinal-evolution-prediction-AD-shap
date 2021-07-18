@@ -65,7 +65,7 @@ These tests have several limitations:
 
 
 <p align="left" width="100%"> 
-    <img width="60%" src="Figure/mri_atrophy.jpeg"> 
+    <img width="50%" src="Figure/mri_atrophy.jpeg"> 
 </p>
 
 
@@ -89,7 +89,7 @@ These measures are computed with an image analysis software called Freesurfer us
 ##### 1-3 PET measures
 
 <p align="left" width="100%"> 
-    <img width="80%" src="Figure/pet.jpeg"> 
+    <img width="60%" src="Figure/pet.jpeg"> 
 </p>
 
 
@@ -112,7 +112,7 @@ While PET scans are non-invasive, they have some limitations. One main limitatio
 ##### 1-4 DTI measures
 
 <p align="left" width="100%"> 
-    <img width="80%" src="Figure/DTI_diagram.png"> 
+    <img width="60%" src="Figure/DTI_diagram.png"> 
 </p>
 
 While structural MRI measures brain atrophy, MRI can also be used to measure other markers of neurodegeneration that provide complementary information for dementia diagnosis. One such marker is diffusion tensor imaging (DTI). DTI can measure the degeneration of white matter (connections between neurons) in the brain. This is done by analysing the diffusion of water molecules along the neuron fibre connections. 
@@ -128,7 +128,7 @@ DTI measures have some limitations. In ADNI, it is a relatively recent imaging m
 ##### 1-5 CSF measures
 
 <p align="left" width="100%"> 
-    <img width="100%" src="Figure/CSFCirculation.jpeg"> 
+    <img width="50%" src="Figure/CSFCirculation.jpeg"> 
 </p>
 
 The cerebrospinal fluid (CSF) is a clear, colourless body fluid found in the brain and spinal cord. It acts as a cushion or buffer for the brain, providing basic mechanical and immunological protection to the brain inside the skull. A sample of the CSF can be taken from patients invasively, by inserting a needle in the spinal cord, a procedure called lumbar puncture.
@@ -139,7 +139,7 @@ Measures of CSF are very important for dementia research. In the CSF, the concen
 
 
 <p align="left" width="100%"> 
-    <img width="100%" src="Figure/adRiskFactors.jpeg"> 
+    <img width="50%" src="Figure/adRiskFactors.jpeg"> 
 </p>
 
 There are several important risk factors that are known to cause dementia. 
