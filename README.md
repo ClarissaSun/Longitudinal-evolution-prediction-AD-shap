@@ -17,9 +17,9 @@
 
 
 ### Data preparation
-**Align left:**
+
 <p align="left" width="100%">
-    <img width="33%" src="Figure/data_description.png"> 
+    <img width="80%" src="Figure/data_description.png"> 
 </p>
 
 
