@@ -33,15 +33,15 @@ Data used in the preparation of this article were obtained from the [Alzheimer�
 
 The data we used from ADNI consists of: 
 
-(1) CSF markers of amyloid-beta and tau deposition; 
+1. CSF markers of amyloid-beta and tau deposition; 
 
-(2) various imaging modalities such as magnetic resonance imaging (MRI), positron emission tomography (PET) using several tracers: Fluorodeoxyglucose (FDG, hypometabolism), AV45 (amyloid), AV1451 (tau)as well as diffusion tensor imaging (DTI); 
+2. various imaging modalities such as magnetic resonance imaging (MRI), positron emission tomography (PET) using several tracers: Fluorodeoxyglucose (FDG, hypometabolism), AV45 (amyloid), AV1451 (tau)as well as diffusion tensor imaging (DTI); 
 
-(3) cognitive assessments acquired in the presence of a clinical expert; 
+3. cognitive assessments acquired in the presence of a clinical expert; 
 
-(4) geneticinformation such as alipoprotein E4 (APOE4) status extractedfrom DNA samples; 
+4. geneticinformation such as alipoprotein E4 (APOE4) status extractedfrom DNA samples; 
 
-(5) general demographic information.
+5. general demographic information.
 
 Extracted features from this data were merged together into a final spreadsheet and made available on the LONI ADNI website.
 
@@ -51,11 +51,11 @@ Extracted features from this data were merged together into a final spreadsheet 
 
 For every individual, month-by-month forecasts of three key biomarkers: 
 
-(1) Classification model: clinical status which can be either cognitively normal (CN), mild cognitive impairment (MCI) or probable Alzheimer’s disease (AD); 
+1. Classification model: clinical status which can be either cognitively normal (CN), mild cognitive impairment (MCI) or probable Alzheimer’s disease (AD); 
 
-(2) Regression model: ADAS-Cog13 (ADAS13) score; 
+2. Regression model: ADAS-Cog13 (ADAS13) score; 
 
-(3) Regression model: ventricle volume (divided by intra-cranial volume). 
+3. Regression model: ventricle volume (divided by intra-cranial volume). 
 
 ### Model evaluation
 
