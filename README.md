@@ -42,7 +42,7 @@ Extracted features from this data were merged together into a final spreadsheet 
 
 ##### Background of AD clinial identification
 
-##### 1. Recognition methodologies of AD
+##### 1. Methodologies to identify AD trait
 
 ##### 1-1 Cognitive tests
 
@@ -76,7 +76,7 @@ Atrophy by indicated by the loss of volume in a particular brain region between 
 
 TADPOLE datasets include three main types of **structural MRI markers** of atrophy: 
 
-+ ROI volumes 
++ ROI (Region of interest)volumes 
 + ROI cortical thicknesses 
 + ROI surface areas, where an ROI (region of interest) is a 3D sub-region of the brain such as the inferior temporal lobe. 
 
@@ -158,56 +158,38 @@ There are several important risk factors that are known to cause dementia.
 **The information does however exist in the ADNI database (one spreadsheet is under Study Data-> Medical History -> Medical History [ADNI1,GO,2]) and TADPOLE participants are welcome to use the information from these spreadsheets if desired.**
 
 
+2. Biomarkers of AD
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-The five most commonly investigated biomarkers were recently included in the revised diagnostic criteria for AD and MCI due to AD (Albert et al.,2011; McKhann et al., 2011). These five biomarkers can be divided into two categories: 
+Given the above methodplogies, the five most commonly investigated biomarkers were recently included in the revised diagnostic criteria for AD and MCI due to AD (Albert et al.,2011; McKhann et al., 2011). These five biomarkers can be divided into two categories: 
 
 + measures of the amyloid beta protein 
 
 + measures of damage to nerve cells (Jack et al., 2012).
 
-Following the two categories, the standard datasets contain the some or all of the following biomarkers:
+The standard datasets contain the some or all of the following biomarkers:
 
 1. Main cognitive tests (excluding subtypes) - neuropsychological tests administered by a clinical expert
 
 + CDR Sum of Boxes
-+ ADAS11
-+ ADAS13
-+ MMSE
-+ RAVLT
-+ Moca
-+ Ecog
++ ADAS11 (The Alzheimer's Disease Assessment Scale)
++ ADAS13 (ADAS11 and ADAS13 reflect the 11-item and 13-item versions of this test)
++ MMSE (Mini-mental state examination)
++ RAVLT (Rey Auditory Verbal Learning Test)
++ Moca (Montreal Cognitive Assessment)
++ Ecog (ECOG Performance Status)
 
 
-
-
-2. MRI ROIs (Freesurfer) - measures of brain structural integrity
+2. MRI of ROIs - measures of brain structural integrity of ROI (Region of interest)
 
 + volumes
 + cortical thicknesses
 + surface areas
 
-3. FDG PET ROI averages - measure cell metabolism, where cells affected by AD show reduced metabolism
+3. FDG(fluorodeoxyglucose) PET of ROI averages - measure cell metabolism, where cells affected by AD show reduced metabolism of ROI (Region of interest)
 
-4. AV45 PET ROI averages - measures amyloid-beta load in the brain, where amyloid-beta is a protein that mis-folds (i.e. its 3D structure is not properly constructed), which then leads to AD
+4. AV45 PET of ROI averages - measures amyloid-beta load of ROI (Region of interest) in the brain, where amyloid-beta is a protein that mis-folds (i.e. its 3D structure is not properly constructed), which then leads to AD
 
-5. AV1451 PET ROI averages - measures tau load in the brain, where tau is another protein which, when abnormal, damages neurons and thus leads to AD
+5. AV1451 PET of ROI averages - measures tau load in the brain, where tau is another protein which, when abnormal, damages neurons and thus leads to AD
 
 6. DTI ROI measures - measures microstructural parameters related to cells and axons (cell radial diffusivity, axonal diffusivity, etc ... )
 
@@ -218,8 +200,6 @@ Following the two categories, the standard datasets contain the some or all of t
 7. CSF biomarkers - amyloid and tau levels in the cerebrospinal fluid (CSF), as opposed to the cerebral cortex
 
 8. Others:
-
-
 
 + APOE status - a gene that is a risk factor for developing AD
 + Demographic information: age, gender, education, etc ...
