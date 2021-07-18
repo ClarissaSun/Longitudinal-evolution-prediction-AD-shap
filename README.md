@@ -25,15 +25,19 @@
 
 
 ### Data preparation
+
+
 Data used in the preparation of this article were obtained from the [Alzheimer’s Disease Neuroimaging Initiative (ADNI) database](adni.loni.usc.edu).
+
+
 
 The data we used from ADNI consists of: 
 
-The data we used from ADNI consists of: (1) CSF markers of amyloid-beta and tau deposition; 
+(1) CSF markers of amyloid-beta and tau deposition; 
 
 (2) various imaging modalities such as magnetic resonance imaging (MRI), positron emission tomography (PET) using several tracers: Fluorodeoxyglucose (FDG, hypometabolism), AV45 (amyloid), AV1451 (tau)as well as diffusion tensor imaging (DTI); 
 
-(3) cognitive assessments acquired in the presence of a clinical expert; 
+(3) cognitive assessments acquired in the presence of a clinical expert; 
 
 (4) geneticinformation such as alipoprotein E4 (APOE4) status extractedfrom DNA samples; 
 
