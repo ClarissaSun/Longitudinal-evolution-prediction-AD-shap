@@ -1,4 +1,4 @@
-# Prediction of Longitudinal Evolution in Alzheimer’s Disease and driving force analysis with shap
+# Prediction of Longitudinal Evolution in Alzheimer’s Disease and Driving Force Analysis with Shap
 
 ####  Project Status: [Active]
 
@@ -8,7 +8,7 @@
 
 + Use shapley value on each feature to measure the driving force of the prediction
 
-
+## Detailed study design
 
 
 
