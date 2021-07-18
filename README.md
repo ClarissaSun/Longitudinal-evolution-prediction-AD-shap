@@ -18,14 +18,16 @@
 
 ### Data preparation
 
-<p align="left" width="100%">
-    <img width="80%" src="Figure/data_description.png"> 
+Data used in the preparation of this article were obtained from the [Alzheimer’s Disease Neuroimaging Initiative (ADNI) database](adni.loni.usc.edu). The data we used from ADNI consists of: 
+
+<p align="left" width="100%"> 
+    <img width="50%" src="Figure/data_description.png"> 
 </p>
 
 
 
 
-Data used in the preparation of this article were obtained from the [Alzheimer’s Disease Neuroimaging Initiative (ADNI) database](adni.loni.usc.edu). The data we used from ADNI consists of: 
+
 
 1. CSF markers of amyloid-beta and tau deposition; 
 
