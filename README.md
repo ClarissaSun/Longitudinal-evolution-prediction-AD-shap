@@ -33,11 +33,11 @@ Data used in the preparation of this article were obtained from the [Alzheimer�
 
 For every individual, month-by-month forecasts of three key biomarkers: 
 
-(1) clinical status which can be either cognitively normal (CN), mild cognitive impairment (MCI) or probable Alzheimer’s disease (AD);  [classification]
+(1) Classification model: clinical status which can be either cognitively normal (CN), mild cognitive impairment (MCI) or probable Alzheimer’s disease (AD); 
 
-(2) ADAS-Cog13 (ADAS13) score;  [regression]
+(2) Regression model: ADAS-Cog13 (ADAS13) score; 
 
-(3) ventricle volume (divided by intra-cranial volume). [regression]
+(3) Regression model: ventricle volume (divided by intra-cranial volume). 
 
 ### Model evaluation
 
