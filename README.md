@@ -78,6 +78,7 @@ Following the two categories, the standard datasets contain the following biomar
 + Radial diffusivity
 
 7. CSF biomarkers - amyloid and tau levels in the cerebrospinal fluid (CSF), as opposed to the cerebral cortex
+
 8. Others:
 
 + APOE status - a gene that is a risk factor for developing AD
