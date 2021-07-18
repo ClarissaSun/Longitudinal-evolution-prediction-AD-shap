@@ -2,4 +2,4 @@
 
 
 Study design overview
-![overview](/Figures/tadpole_overview.png)
+![overview](Figure/tadpole_overview.png)
