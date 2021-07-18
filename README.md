@@ -42,9 +42,9 @@ Extracted features from this data were merged together into a final spreadsheet 
 
 ##### Background of AD clinial identification
 
-1. Recognition methodologies of AD
+##### 1. Recognition methodologies of AD
 
- 1-1 Cognitive tests
+##### 1-1 Cognitive tests
 
 Cognitive tests can help in the diagnosis of AD. In the tests, people are instructed to copy drawings similar to the one shown in the picture, remember words, read and subtract numbers. These intercalated pentagons are used in the Mini-Mental State Examination (MMSE), an extensively used cognitive test. Image source: Wikipedia
 
@@ -61,7 +61,7 @@ These tests have several limitations:
 
 
 
- 1-2 MRI(Magnetic resonance imaging (MRI) measures
+##### 1-2 MRI(Magnetic resonance imaging (MRI) measures
 
 
 <p align="left" width="100%"> 
@@ -86,7 +86,7 @@ These measures are computed with an image analysis software called Freesurfer us
 **The MRI biomarkers in TADPOLE can be found in the columns containing UCSFFSX (cross-sectional) and UCSFFSL (longitudinal).**
 
 
- 1-3 PET measures
+##### 1-3 PET measures
 
 <p align="left" width="100%"> 
     <img width="80%" src="Figure/pet.jpeg"> 
@@ -109,7 +109,7 @@ While PET scans are non-invasive, they have some limitations. One main limitatio
 **PET measures can be found in columns containing "BAIPETNMRC" (FDG PET), "UCBERKELEYAV45" (AV45) and "UCBERKELEYAV1451" (AV1451).**
 
 
- 1-4 DTI measures
+##### 1-4 DTI measures
 
 <p align="left" width="100%"> 
     <img width="80%" src="Figure/DTI_diagram.png"> 
@@ -125,7 +125,7 @@ DTI measures have some limitations. In ADNI, it is a relatively recent imaging m
 
 
 
- 1-5 CSF measures
+##### 1-5 CSF measures
 
 <p align="left" width="100%"> 
     <img width="100%" src="Figure/CSFCirculation.jpeg"> 
@@ -135,7 +135,7 @@ The cerebrospinal fluid (CSF) is a clear, colourless body fluid found in the bra
 
 Measures of CSF are very important for dementia research. In the CSF, the concentration of **abnormal proteins** such as **amyloid-beta and tau** is a strong indicator of AD. Abnormal levels of concentrations in these proteins are some of the earliest signs of Alzheimer's disease and can indicate abnormalities many years before symptom onset.
 
- 1-6 Risk factors
+##### 1-6 Risk factors
 
 
 <p align="left" width="100%"> 
