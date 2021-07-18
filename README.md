@@ -47,7 +47,42 @@ The five most commonly investigated biomarkers were recently included in the rev
 
 + measures of damage to nerve cells (Jack et al., 2012).
 
+Following the two categories, the standard datasets contain the following biomarkers:
 
+1. Main cognitive tests (excluding subtypes) - neuropsychological tests administered by a clinical expert
+
++ CDR Sum of Boxes
++ ADAS11
++ ADAS13
++ MMSE
++ RAVLT
++ Moca
++ Ecog
+
+2. MRI ROIs (Freesurfer) - measures of brain structural integrity
+
++ volumes
++ cortical thicknesses
++ surface areas
+
+3. FDG PET ROI averages - measure cell metabolism, where cells affected by AD show reduced metabolism
+
+4. AV45 PET ROI averages - measures amyloid-beta load in the brain, where amyloid-beta is a protein that mis-folds (i.e. its 3D structure is not properly constructed), which then leads to AD
+
+5. AV1451 PET ROI averages - measures tau load in the brain, where tau is another protein which, when abnormal, damages neurons and thus leads to AD
+
+6. DTI ROI measures - measures microstructural parameters related to cells and axons (cell radial diffusivity, axonal diffusivity, etc ... )
+
++ Mean diffusivity
++ Axial diffusivity
++ Radial diffusivity
+
+7. CSF biomarkers - amyloid and tau levels in the cerebrospinal fluid (CSF), as opposed to the cerebral cortex
+8. Others:
+
++ APOE status - a gene that is a risk factor for developing AD
++ Demographic information: age, gender, education, etc ...
++ Diagnosis: either cognitively cormal (CN), mild cognitive impairment (MCI) or Alzheimer's disease (AD).
 
 
 
