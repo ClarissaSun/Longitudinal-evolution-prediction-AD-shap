@@ -8,6 +8,10 @@
 
 + Use shapley value on each feature to measure the driving force of the prediction
 
+
+
+
+
 ## Detailed study design
 
 
@@ -20,21 +24,34 @@
 
 
 
+### Data preparation
+Data used in the preparation of this article were obtained from the [Alzheimer’s Disease Neuroimaging Initiative (ADNI) database] (adni.loni.usc.edu).
+
+
+### Model construction
+
+
+For every individual, month-by-month forecasts of three key biomarkers: 
+
+(1) clinical status which can be either cognitively normal (CN), mild cognitive impairment (MCI) or probable Alzheimer’s disease (AD);  [classification]
+
+(2) ADAS-Cog13 (ADAS13) score;  [regression]
+
+(3) ventricle volume (divided by intra-cranial volume). [regression]
+
+### Model evaluation
+
+
+### Model analysis
 
 
 
 
-### Methods Used
-* Inferential Statistics
-* Machine Learning
-* Data Visualization
-* Predictive Modeling
-* etc.
 
 
 
-## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
+
+
 
 ## Needs of this project
 
