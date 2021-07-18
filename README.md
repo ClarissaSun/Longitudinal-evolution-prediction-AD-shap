@@ -1,9 +1,28 @@
 # Prediction of Longitudinal Evolution in Alzheimer’s Disease and driving force analysis with shap
 
-#### -- Project Status: [Active]
+####  Project Status: [Active]
 
-## Project Intro/Objective
-The purpose of this project is ________. (Describe the main goals of the project and potential civic impact. Limit to a short paragraph, 3-6 Sentences)
+## General study goal:
+
++ Predict future ourcome measurements of subjects at-risk of ad enrolled in the ADNI study 
+
++ Use shapley value on each feature to measure the driving force of the prediction
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Methods Used
 * Inferential Statistics
@@ -12,15 +31,7 @@ The purpose of this project is ________. (Describe the main goals of the project
 * Predictive Modeling
 * etc.
 
-### Technologies
-* R 
-* Python
-* D3
-* PostGres, MySql
-* Pandas, jupyter
-* HTML
-* JavaScript
-* etc. 
+
 
 ## Project Description
 (Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
