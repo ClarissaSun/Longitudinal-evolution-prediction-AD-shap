@@ -158,7 +158,7 @@ There are several important risk factors that are known to cause dementia.
 **The information does however exist in the ADNI database (one spreadsheet is under Study Data-> Medical History -> Medical History [ADNI1,GO,2]) and TADPOLE participants are welcome to use the information from these spreadsheets if desired.**
 
 
-2. Biomarkers of AD
+##### 2. Biomarkers of AD
 
 Given the above methodplogies, the five most commonly investigated biomarkers were recently included in the revised diagnostic criteria for AD and MCI due to AD (Albert et al.,2011; McKhann et al., 2011). These five biomarkers can be divided into two categories: 
 
@@ -168,7 +168,7 @@ Given the above methodplogies, the five most commonly investigated biomarkers we
 
 The standard datasets contain the some or all of the following biomarkers:
 
-1. Main cognitive tests (excluding subtypes) - neuropsychological tests administered by a clinical expert
+##### 2-1. Main cognitive tests (excluding subtypes) - neuropsychological tests administered by a clinical expert
 
 + CDR Sum of Boxes
 + ADAS11 (The Alzheimer's Disease Assessment Scale)
@@ -179,27 +179,27 @@ The standard datasets contain the some or all of the following biomarkers:
 + Ecog (ECOG Performance Status)
 
 
-2. MRI of ROIs - measures of brain structural integrity of ROI (Region of interest)
+##### 2-2. MRI of ROIs - measures of brain structural integrity of ROI (Region of interest)
 
 + volumes
 + cortical thicknesses
 + surface areas
 
-3. FDG(fluorodeoxyglucose) PET of ROI averages - measure cell metabolism, where cells affected by AD show reduced metabolism of ROI (Region of interest)
+##### 2-3. FDG(fluorodeoxyglucose) PET of ROI averages - measure cell metabolism, where cells affected by AD show reduced metabolism of ROI (Region of interest)
 
-4. AV45 PET of ROI averages - measures amyloid-beta load of ROI (Region of interest) in the brain, where amyloid-beta is a protein that mis-folds (i.e. its 3D structure is not properly constructed), which then leads to AD
+##### 2-4. AV45 PET of ROI averages - measures amyloid-beta load of ROI (Region of interest) in the brain, where amyloid-beta is a protein that mis-folds (i.e. its 3D structure is not properly constructed), which then leads to AD
 
-5. AV1451 PET of ROI averages - measures tau load in the brain, where tau is another protein which, when abnormal, damages neurons and thus leads to AD
+##### 2-5. AV1451 PET of ROI averages - measures tau load in the brain, where tau is another protein which, when abnormal, damages neurons and thus leads to AD
 
-6. DTI ROI measures - measures microstructural parameters related to cells and axons (cell radial diffusivity, axonal diffusivity, etc ... )
+##### 2-6. DTI ROI measures - measures microstructural parameters related to cells and axons (cell radial diffusivity, axonal diffusivity, etc ... )
 
 + Mean diffusivity
 + Axial diffusivity
 + Radial diffusivity
 
-7. CSF biomarkers - amyloid and tau levels in the cerebrospinal fluid (CSF), as opposed to the cerebral cortex
+##### 2-7. CSF biomarkers - amyloid and tau levels in the cerebrospinal fluid (CSF), as opposed to the cerebral cortex
 
-8. Others:
+##### 2-8. Others:
 
 + APOE status - a gene that is a risk factor for developing AD
 + Demographic information: age, gender, education, etc ...
