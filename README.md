@@ -17,19 +17,25 @@
 
 
 ### Data preparation
+**Align left:**
+<p align="left" width="100%">
+    <img width="33%" src="Figure/data_description.png"> 
+</p>
+
+
 
 
 Data used in the preparation of this article were obtained from the [Alzheimer’s Disease Neuroimaging Initiative (ADNI) database](adni.loni.usc.edu). The data we used from ADNI consists of: 
 
-1.CSF markers of amyloid-beta and tau deposition; 
+1. CSF markers of amyloid-beta and tau deposition; 
 
-2.Various imaging modalities such as magnetic resonance imaging (MRI), positron emission tomography (PET) using several tracers: Fluorodeoxyglucose (FDG, hypometabolism), AV45 (amyloid), AV1451 (tau)as well as diffusion tensor imaging (DTI); 
+2. Various imaging modalities such as magnetic resonance imaging (MRI), positron emission tomography (PET) using several tracers: Fluorodeoxyglucose (FDG, hypometabolism), AV45 (amyloid), AV1451 (tau)as well as diffusion tensor imaging (DTI); 
 
-3.Cognitive assessments acquired in the presence of a clinical expert; 
+3. Cognitive assessments acquired in the presence of a clinical expert; 
 
-4.Genetic information such as alipoprotein E4 (APOE4) status extractedfrom DNA samples; 
+4. Genetic information such as alipoprotein E4 (APOE4) status extractedfrom DNA samples; 
 
-5.General demographic information.
+5. General demographic information.
 
 Extracted features from this data were merged together into a final spreadsheet and made available on the LONI ADNI website.
 
