@@ -16,16 +16,13 @@
 
 
 
-### Data preparation
+### Data overview
 
 Data used in the preparation of this article were obtained from the [Alzheimer’s Disease Neuroimaging Initiative (ADNI) database](adni.loni.usc.edu). The data we used from ADNI consists of: 
 
 <p align="left" width="100%"> 
     <img width="50%" src="Figure/data_description.png"> 
 </p>
-
-
-
 
 
 
@@ -37,12 +34,18 @@ Data used in the preparation of this article were obtained from the [Alzheimer�
 
 4. Genetic information such as alipoprotein E4 (APOE4) status extractedfrom DNA samples; 
 
-5. General demographic information.
+5. General demographic information： age, gender, education, etc ...
 
 Extracted features from this data were merged together into a final spreadsheet and made available on the LONI ADNI website.
 
+#### Detailed description 
 
 
+The five most commonly investigated biomarkers were recently included in the revised diagnostic criteria for AD and MCI due to AD (Albert et al.,2011; McKhann et al., 2011). These five biomarkers can be divided into two categories: 
+
++ measures of the amyloid beta protein 
+
++ measures of damage to nerve cells (Jack et al., 2012).
 
 
 
@@ -67,6 +70,7 @@ For every individual, month-by-month forecasts of three key biomarkers:
 3. Regression model: ventricle volume (divided by intra-cranial volume). 
 
 ### Model evaluation
+
 
 
 ### Model analysis
