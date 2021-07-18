@@ -153,9 +153,9 @@ There are several important risk factors that are known to cause dementia.
 
 + **lifestyle** Lifestyle factors known to increase the risk of developing dementia include physical inactivity, smoking, unhealthy diet, excessive alcohol or head injuries.
 
-While some of these risk factors (APOE, age and gender) are found in the TADPOLE_D1_D2.csv spreadsheet, the other factors are not present.
+**While some of these risk factors (APOE, age and gender) are found in the TADPOLE_D1_D2.csv spreadsheet, the other factors are not present.**
 
-The information does however exist in the ADNI database (one spreadsheet is under Study Data-> Medical History -> Medical History [ADNI1,GO,2]) and TADPOLE participants are welcome to use the information from these spreadsheets if desired.
+**The information does however exist in the ADNI database (one spreadsheet is under Study Data-> Medical History -> Medical History [ADNI1,GO,2]) and TADPOLE participants are welcome to use the information from these spreadsheets if desired.**
 
 
 
