@@ -25,7 +25,7 @@
 
 
 ### Data preparation
-Data used in the preparation of this article were obtained from the [Alzheimer’s Disease Neuroimaging Initiative (ADNI) database] (adni.loni.usc.edu).
+Data used in the preparation of this article were obtained from the [Alzheimer’s Disease Neuroimaging Initiative (ADNI) database](adni.loni.usc.edu).
 
 
 ### Model construction
