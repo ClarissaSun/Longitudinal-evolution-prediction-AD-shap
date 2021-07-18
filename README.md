@@ -185,13 +185,13 @@ The standard datasets contain the some or all of the following biomarkers:
 + cortical thicknesses
 + surface areas
 
-##### 2-3. FDG(fluorodeoxyglucose) PET of ROI averages - measure cell metabolism, where cells affected by AD show reduced metabolism of ROI (Region of interest)
+##### 2-3. FDG PET marker of ROI averages - measure cell metabolism, where cells affected by AD show reduced metabolism of ROI (Region of interest)
 
-##### 2-4. AV45 PET of ROI averages - measures amyloid-beta load of ROI (Region of interest) in the brain, where amyloid-beta is a protein that mis-folds (i.e. its 3D structure is not properly constructed), which then leads to AD
+##### 2-4. AV45 PET marker of ROI averages - measures amyloid-beta load of ROI (Region of interest) in the brain, where amyloid-beta is a protein that mis-folds (i.e. its 3D structure is not properly constructed), which then leads to AD
 
-##### 2-5. AV1451 PET of ROI averages - measures tau load in the brain, where tau is another protein which, when abnormal, damages neurons and thus leads to AD
+##### 2-5. AV1451 PET marker of ROI averages - measures tau load in the brain, where tau is another protein which, when abnormal, damages neurons and thus leads to AD
 
-##### 2-6. DTI ROI measures - measures microstructural parameters related to cells and axons (cell radial diffusivity, axonal diffusivity, etc ... )
+##### 2-6. DTI of ROI measures - measures microstructural parameters related to cells and axons (cell radial diffusivity, axonal diffusivity, etc ... )
 
 + Mean diffusivity
 + Axial diffusivity
