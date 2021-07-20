@@ -1,1 +1,17 @@
 
+We utilized the data provided by the TADPOLE challenge (Marinescu et al., 2018). 
+
++ For convenience, TADPOLE provides three "standard" data sets, derived from the ADNI study:
+
+D1 - a comprehensive longitudinal data set for training;
+D2 - a comprehensive longitudinal data set on rollover subjects for forecasting;
+D3 - a limited forecasting data set on the same rollover subjects as D2.
+D4 - the future test set for evaluating the model performance 
+
+In the archive, the file D1_D2.csv contains both data sets D1 and D2, with row-wise membership indicated by a 1 in the "D1" and "D2" columns, respectively. The file D3.csv contains D3.
+
++ The data consisted of 1677 subjects from the ADNI database (Jack et al., 2008). Each participant was scanned at multiple timepoints. The average number of timepoints was 7.3 ± 4.0, while the average number of years from the first timepoint to the last timepoint was 3.6 ± 2.5.
+
+[data distribution of adni merge]
+
+[] 
