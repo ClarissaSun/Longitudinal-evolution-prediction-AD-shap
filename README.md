@@ -2,6 +2,10 @@
 
 ####  Project Status: [Active]
 
+## Background knowledge
+
+No single clinical test can be used to identify Alzheimer’s disease. A comprehensive evaluation includes a complete health history, physical examination, neurological and mental status assessments, analysis of blood, and possibly magnetic or nuclear imaging exams. While this type of evaluation may provide an accurate diagnosis of probable Alzheimer’s disease, absolute confirmation requires examination of brain tissue at autopsy.
+
 ## General study goal:
 
 + Predict future ourcome measurements of subjects at-risk of ad enrolled in the ADNI study 
