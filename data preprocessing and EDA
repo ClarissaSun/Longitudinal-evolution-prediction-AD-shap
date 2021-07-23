@@ -1,0 +1,18 @@
+This section includes and overview of the data processing steps performed on the datasets obtained from the ADNI database as well as Exploratory Data Analysis (EDA) to describe key trends in the data and to inform the modeling performed in the later sections of the report.
+
+
+## Data processing
+
+Data sources
+The data required for this work were drawn from multiple datasets, all obtained from the website of the Laboratory of Neuro Imaging (LONI) at the University of Southern California (USC). The data sets contained data from all three ADNI studies, but we restricted our usage to only ADNI1. 
+
+We use the D1 data provided in tadpole challenge. D1_D2.csv contains both D1 and D2 data, where D1 data contains:
+
++ individuals from the entire ADNI history(ADNI1, ADNI2, ADNI3, ADNIGO) with at least 2 visit
++ main data set is derived from ADNI merge, with extra columns derived from other datasets containing MRI, PET, DTI and CSF measurements of the same individuals (merged by sample ID and visiting ID)
+
+D2 data contains：
+
++ active (promising for adni 3) individuals from the ADNI 2 visits 
+
+
