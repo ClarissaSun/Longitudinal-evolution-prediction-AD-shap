@@ -228,7 +228,7 @@ For every individual, month-by-month forecasts of three key biomarkers:
 ### Data Conditioning
 
 <p align="left" width="100%"> 
-    <img width="50%" src="dataconditioning.png"> 
+    <img width="50%" src="Figure/dataconditioning.png"> 
 </p>
 
 
