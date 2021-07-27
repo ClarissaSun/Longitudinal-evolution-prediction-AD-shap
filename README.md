@@ -238,6 +238,23 @@ For every individual, month-by-month forecasts of three key biomarkers:
 </p>
 
 
+### ADAS 13 and Ventricle Volume Modeling
+
+<p align="left" width="100%"> 
+    <img width="50%" src="Figure/adas3and_ven.png"> 
+</p>
+
+### Cognitive Status Prediction
+
+<p align="left" width="100%"> 
+    <img width="50%" src="Figure/cogstatus.png"> 
+</p>
+
+### Time to conversion
+
+<p align="left" width="100%"> 
+    <img width="50%" src="Figure/time_to_conv.png"> 
+</p>
 
 
 
