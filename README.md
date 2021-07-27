@@ -18,6 +18,9 @@ No single clinical test can be used to identify Alzheimer’s disease. A compreh
 
 ## Detailed study design
 
+<p align="left" width="100%"> 
+    <img width="50%" src="Figure/pipeline.png"> 
+</p>
 
 
 ### Data overview
@@ -222,11 +225,14 @@ For every individual, month-by-month forecasts of three key biomarkers:
 3. Regression model: ventricle volume (divided by intra-cranial volume). 
 
 
-### project pipeline
+### Data Conditioning
 
 <p align="left" width="100%"> 
-    <img width="50%" src="Figure/pipeline.png"> 
+    <img width="50%" src="dataconditioning.png"> 
 </p>
+
+
+
 
 
 
