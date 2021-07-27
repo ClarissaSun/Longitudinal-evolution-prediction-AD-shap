@@ -209,18 +209,8 @@ The standard datasets contain the some or all of the following biomarkers:
 + Demographic information: age, gender, education, etc ...
 + Diagnosis: either cognitively cormal (CN), mild cognitive impairment (MCI) or Alzheimer's disease (AD).
 
-##### Getting started with the data sets
 
-
-
-
-
-
-
-
-
-
-### Model construction
+### Model construction goal
 
 
 For every individual, month-by-month forecasts of three key biomarkers: 
@@ -231,15 +221,12 @@ For every individual, month-by-month forecasts of three key biomarkers:
 
 3. Regression model: ventricle volume (divided by intra-cranial volume). 
 
-### Model evaluation
 
+### project pipeline
 
-
-### Model analysis
-
-
-
-
+<p align="left" width="100%"> 
+    <img width="50%" src="Figure/pipeline.png"> 
+</p>
 
 
 
@@ -248,12 +235,7 @@ For every individual, month-by-month forecasts of three key biomarkers:
 
 ## Needs of this project
 
-- frontend developers
-- data exploration/descriptive statistics
-- data processing/cleaning
-- statistical modeling
-- writeup/reporting
-- etc. (be as specific as possible)
+
 
 ## Getting Started
 
