@@ -250,7 +250,7 @@ For every individual, month-by-month forecasts of three key biomarkers:
     <img width="50%" src="Figure/cogstatus.png"> 
 </p>
 
-### Time to conversion
+### Time to conversion prediction
 
 <p align="left" width="100%"> 
     <img width="50%" src="Figure/time_to_conv.png"> 
